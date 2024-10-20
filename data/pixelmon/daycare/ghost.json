@@ -1,0 +1,32 @@
+{
+  "spec": "type1:GHOST",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Ghost Gem",
+      "items": [
+        {
+          "item": "pixelmon:ghost_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Kasib Berry",
+      "items": [
+        {
+          "item": "pixelmon:kasib_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

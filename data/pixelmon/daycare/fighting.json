@@ -1,0 +1,32 @@
+{
+  "spec": "type1:FIGHTING",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Fighting Gem",
+      "items": [
+        {
+          "item": "pixelmon:fighting_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Chople Berry",
+      "items": [
+        {
+          "item": "pixelmon:chople_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

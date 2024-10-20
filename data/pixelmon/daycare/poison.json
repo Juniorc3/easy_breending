@@ -1,0 +1,32 @@
+{
+  "spec": "type1:POISON",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Poison Gem",
+      "items": [
+        {
+          "item": "pixelmon:poison_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Kebia Berry",
+      "items": [
+        {
+          "item": "pixelmon:kebia_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

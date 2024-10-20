@@ -1,0 +1,32 @@
+{
+  "spec": "type1:FLYING",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Flying Gem",
+      "items": [
+        {
+          "item": "pixelmon:flying_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Coba Berry",
+      "items": [
+        {
+          "item": "pixelmon:coba_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

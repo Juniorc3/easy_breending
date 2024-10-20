@@ -1,0 +1,32 @@
+{
+  "spec": "type1:NORMAL",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Normal Gem",
+      "items": [
+        {
+          "item": "pixelmon:normal_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Chilan Berry",
+      "items": [
+        {
+          "item": "pixelmon:chilan_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

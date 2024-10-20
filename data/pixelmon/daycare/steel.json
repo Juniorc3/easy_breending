@@ -1,0 +1,32 @@
+{
+  "spec": "type1:STEEL",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "4x Steel Gem",
+      "items": [
+        {
+          "item": "pixelmon:steel_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Baniri Berry",
+      "items": [
+        {
+          "item": "pixelmon:babiri_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}

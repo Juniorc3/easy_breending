@@ -1,0 +1,32 @@
+{
+  "spec": "type1:PSYCHIC",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 30,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "3x Psychic Gem",
+      "items": [
+        {
+          "item": "pixelmon:psychic_gem",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "5x Payapa Berry",
+      "items": [
+        {
+          "item": "pixelmon:payapa_berry",
+          "amount": 5
+        }
+      ]
+    }
+  ]
+}
